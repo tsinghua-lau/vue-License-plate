@@ -1,0 +1,67 @@
+/* 0 */
+.blue {
+    background-image: url("../bluebrand.png");
+    background-position: 50% 50%;
+  }
+  
+ /* 1 */
+  .yellow {
+    background-image: url("../yellowbrand.png");
+    background-position: 50% 50%;
+    color: #000;
+  }
+  
+ /* 2 */
+  .black {
+    background-image: url("../black.png");
+    background-position: 50% 50%;
+  }
+  
+ /* 3 */
+  .white {
+    background-image: url("../whitebrand.png");
+    background-position: 50% 50%;
+    color: #000 !important;
+  }
+  
+ /* 4 */
+  .green {
+    background-image: url("../green.png");
+    background-position: 50% 50%;
+  }
+  
+ /* 5 */
+  .yegreen {
+    background-image: url("../yegreen.png");
+    background-position: 50% 50%;
+  }
+  
+ /* 6 */
+  .bluewhite {
+    background-image: url("../bluewhite.png");
+    background-position: 50% 50%;
+  }
+  
+ /* 7 */
+  .linshi {
+    background-image: url("../linshi.png");
+    background-position: 50% 50%;
+  }
+  
+ /* 8 */
+  .nomatch {
+    background-image: url("../nomatch.png");
+    background-position: 50% 50%;
+  }
+  
+ /* 9 */
+  .Green {
+    background-image: url("../green1.png");
+    background-position: 50% 50%;
+  }
+  
+ /* 10 */
+  .red {
+    background-image: url("../red.png");
+    background-position: 50% 50%;
+  }
