@@ -1,6 +1,6 @@
 (function (global, factory) {
     module.exports = factory();
-}(this, (function () { 
+}(this, (function () {
     "use strict";
 
     // 定义键盘引擎内部的一些参数和类型说明
@@ -57,37 +57,50 @@
         // 民航摆渡车
         AVIATION: 8,
 
-        nameOf: function(mode) {
+        nameOf: function (mode) {
             switch (mode) {
-                case 1: return "UNKNOWN";
-                case 0: return "AUTO_DETECT";
-                case 1: return "CIVIL";
-                case 2: return "WJ2007";
-                case 3: return "WJ2012";
-                case 4: return "PLA2012";
-                case 5: return "NEW_ENERGY";
-                case 6: return "SHI2007";
-                case 7: return "SHI2017";
-                case 8: return "AVIATION";
-                default: return "UNKNOWN";
+                case 1:
+                    return "UNKNOWN";
+                case 0:
+                    return "AUTO_DETECT";
+                case 1:
+                    return "CIVIL";
+                case 2:
+                    return "WJ2007";
+                case 3:
+                    return "WJ2012";
+                case 4:
+                    return "PLA2012";
+                case 5:
+                    return "NEW_ENERGY";
+                case 6:
+                    return "SHI2007";
+                case 7:
+                    return "SHI2017";
+                case 8:
+                    return "AVIATION";
+                default:
+                    return "UNKNOWN";
             }
         },
 
-        lenOf: function(mode){
-            switch(mode){
-                case 3/*2012武警*/:
-                case 5/*新能源*/: return 8;
-                default: return 7;
+        lenOf: function (mode) {
+            switch (mode) {
+                case 3 /*2012武警*/ :
+                case 5 /*新能源*/ :
+                    return 8;
+                default:
+                    return 7;
             }
         }
     };
 
     var _PVS = "京津晋冀蒙辽吉黑沪苏浙皖闽赣鲁豫鄂湘粤桂琼渝川贵云藏陕甘青宁新";
     var _NUM = "1234567890";
-    var _LETTERS= "QWERTYUPASDFGHJKLZXCVBNM";
+    var _LETTERS = "QWERTYUPASDFGHJKLZXCVBNM";
     var _JING = "警";
     var _123 = "123";
-    var _DF = "DF";
+    var _DF = "ADEFGHJKCB";
     var _SHI2007 = "使";
     var _HK = "港";
     var _MACAO = "澳";
