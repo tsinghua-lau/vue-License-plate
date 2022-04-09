@@ -100,7 +100,7 @@
     var _LETTERS = "QWERTYUPASDFGHJKLZXCVBNM";
     var _JING = "警";
     var _123 = "123";
-    var _DF = "ADEFGHJKCB";
+    var _DF = "ADEFGHJKCB";//为新能源输入第二个字符后，显示可点击的字符
     var _SHI2007 = "使";
     var _HK = "港";
     var _MACAO = "澳";
